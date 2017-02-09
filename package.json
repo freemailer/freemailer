@@ -1,17 +1,14 @@
 {
-  "name": "nodemailer",
-  "version": "2.7.2",
+  "name": "freemailer",
+  "version": "0.0.0",
   "description": "Easy as cake e-mail sending from your Node.js applications",
   "main": "lib/nodemailer.js",
-  "homepage": "https://nodemailer.com/",
   "scripts": {
     "test": "grunt mochaTest"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://nodemailer.com/"
-  },
+  "repository": "freemailer/freemailer",
   "keywords": [
+    "nodemailer",
     "e-mail",
     "mime",
     "email",
@@ -20,11 +17,8 @@
     "ses",
     "smtp"
   ],
-  "author": "Andris Reinman",
+  "author": "Ratson",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/nodemailer/nodemailer/issues"
-  },
   "dependencies": {
     "libmime": "3.0.0",
     "mailcomposer": "4.0.1",
