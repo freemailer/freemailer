@@ -1,14 +1,16 @@
 # Freemailer
 
+## Purpose
+
+This is a fork of `Nodemailer v2.7.2` to maintain a free version to accept
+bugfix PR. Development of new features is not planned yet, but feel free to
+open new issue to discuss.
+
 ## Installation
 
 ```
 npm install freemailer --save
 ```
-
-## History
-
-This is a fork of `Nodemailer` from `v2.7.2`.
 
 ## Original Nodemailer README
 
