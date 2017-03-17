@@ -9,7 +9,7 @@ Attached calendar events inside mime message are formatted identically to
 calendar events sent from office365, eg. a single alternative encoded in base64
 */
 
-var nodemailer = require('../lib/nodemailer');
+var nodemailer = require('../lib');
 
 // Create a SMTP transporter object
 var transporter = nodemailer.createTransport({

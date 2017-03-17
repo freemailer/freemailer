@@ -4,7 +4,7 @@
 
 // This script fetches queued messages from RabbitMQ and delivers these to SMTP
 
-var nodemailer = require('../../lib/nodemailer');
+var nodemailer = require('../../lib');
 var amqp = require('amqp');
 
 var queueHost = 'amqp://guest:guest@localhost';

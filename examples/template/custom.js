@@ -4,7 +4,7 @@
 
 // This example sets up a custom template renderer, using swig-email-templates
 
-var nodemailer = require('../../lib/nodemailer');
+var nodemailer = require('../../lib');
 var stubTransport = require('nodemailer-stub-transport');
 
 // require external renderer

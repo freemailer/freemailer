@@ -10,7 +10,7 @@ This example demonstrates how to use proxies using a custom proxy connector
 //     ssh -N -D 0.0.0.0:1080 username@remote.host
 
 var Socks = require('socks');
-var nodemailer = require('../../lib/nodemailer');
+var nodemailer = require('../../lib');
 
 var proxy = {
     ipaddress: 'localhost',

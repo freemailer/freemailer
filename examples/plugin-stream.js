@@ -4,7 +4,7 @@
 
 // This example demonstrates the 'stream' step with a plugin that converts all spaces to tabs
 
-var nodemailer = require('../lib/nodemailer');
+var nodemailer = require('../lib');
 var transporter = nodemailer.createTransport({
     transport: 'stub' // load dynamically nodemailer-stub-tranport
 });

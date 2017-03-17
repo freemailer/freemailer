@@ -4,7 +4,7 @@
 'use strict';
 
 var chai = require('chai');
-var nodemailer = require('../lib/nodemailer');
+var nodemailer = require('../lib');
 var sinon = require('sinon');
 var SMTPServer = require('smtp-server').SMTPServer;
 var crypto = require('crypto');

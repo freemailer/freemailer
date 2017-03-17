@@ -4,7 +4,7 @@
 
 // This example sets up a template renderer, using node-email-templates
 
-var nodemailer = require('../../lib/nodemailer');
+var nodemailer = require('../../lib');
 var stubTransport = require('nodemailer-stub-transport');
 
 // require external renderer

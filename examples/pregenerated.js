@@ -6,7 +6,7 @@
 This example sends a pregenerated MIME message instead of generating a new one
 */
 
-var nodemailer = require('../lib/nodemailer');
+var nodemailer = require('../lib');
 
 // Create a SMTP transporter object
 var transporter = nodemailer.createTransport({

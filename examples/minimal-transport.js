@@ -14,7 +14,7 @@ var transport = {
     }
 };
 
-var nodemailer = require('../lib/nodemailer');
+var nodemailer = require('../lib');
 var transporter = nodemailer.createTransport(transport);
 
 transporter.sendMail({

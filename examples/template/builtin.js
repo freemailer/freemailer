@@ -2,7 +2,7 @@
 
 'use strict';
 
-var nodemailer = require('../../lib/nodemailer');
+var nodemailer = require('../../lib');
 var stubTransport = require('nodemailer-stub-transport');
 
 // Create a transporter object

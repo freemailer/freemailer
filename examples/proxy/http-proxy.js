@@ -6,7 +6,7 @@
 This example demonstrates how to use a HTTP proxy
 */
 
-var nodemailer = require('../../lib/nodemailer');
+var nodemailer = require('../../lib');
 
 // Assumes HTTP/S proxy (eg. Squid) running on port 3128
 // NB! The proxy must allow CONNECT tunnels to SMTP ports

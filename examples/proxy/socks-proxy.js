@@ -9,7 +9,7 @@ This example demonstrates how to use a socks4/5 proxy
 // create SOCKS5 proxy with
 //     ssh -N -D 0.0.0.0:1080 username@remote.host
 
-var nodemailer = require('../../lib/nodemailer');
+var nodemailer = require('../../lib');
 
 // Create a SMTP transporter object
 var transporter = nodemailer.createTransport({

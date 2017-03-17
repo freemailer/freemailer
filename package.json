@@ -2,7 +2,7 @@
   "name": "freemailer",
   "version": "0.0.1",
   "description": "Easy as cake e-mail sending from your Node.js applications",
-  "main": "lib/nodemailer.js",
+  "main": "lib/index",
   "scripts": {
     "test": "grunt mochaTest"
   },
