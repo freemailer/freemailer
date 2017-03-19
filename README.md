@@ -1,5 +1,7 @@
 # Freemailer
 
+![Freemailer](assets/logo.png)
+
 ## Purpose
 
 This is a fork of `Nodemailer v2.7.2` to maintain a free version to accept
