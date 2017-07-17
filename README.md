@@ -2,6 +2,22 @@
 
 ![Freemailer](assets/logo.png)
 
+## Status
+
+Developement of this project is suspended as `nodemailer` v4 has switched back
+to MIT license.
+
+However, I may consider to improve the following areas of in the future,
+
+- Use external dependencies instead of bundle everything
+- Ad-free and track-free documentation
+- Remove usage of Grunt
+
+If you would like to see the above improvement, please star this respository.
+
+If you would like to help, feel free to submit PR or open issue for becoming
+collaborator.
+
 ## Purpose
 
 This is a fork of `Nodemailer v2.7.2` to maintain a free version to accept
